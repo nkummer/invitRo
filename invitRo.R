@@ -10,6 +10,8 @@
 #' @author Philippe Vervliet (ORCID: 0000-0003-2644-6820)
 #' 
 #' @references 
+#' Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” 
+#' Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.
 
 ##Load libraries
 library("tidyverse")
