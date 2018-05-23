@@ -1,0 +1,29 @@
+,SampleName,Phase I,Phase II,SolvBlank,CompPresent,CoFPresent,HLMPres,SampleType,ColourCode
+Sample.0,Ph1-PosCont,1,0,0,0,1,1,Control,Ph1-Cont
+Sample.1,Cyp-NoCof,1,0,0,1,0,1,Control,Ph1-Cont
+Sample.2,Cyp-NoComp,1,0,0,0,1,1,Control,Ph1-Cont
+Sample.3,Cyp-NoHLM,1,0,0,1,1,0,Control,Ph1-Cont
+Sample.4,1h-repl1,1,0,0,1,1,1,Sample,Ph1-1h
+Sample.5,1h-repl2,1,0,0,1,1,1,Sample,Ph1-1h
+Sample.6,1h-repl3,1,0,0,1,1,1,Sample,Ph1-1h
+Sample.7,3h-repl1,1,0,0,1,1,1,Sample,Ph1-3h
+Sample.8,3h-repl2,1,0,0,1,1,1,Sample,Ph1-3h
+Sample.9,3h-repl3,1,0,0,1,1,1,Sample,Ph1-3h
+Sample.10,UGT-NoCof,0,1,0,1,0,1,Control,Gluc-Cont
+Sample.11,UGT-NoComp,0,1,0,0,1,1,Control,Gluc-Cont
+Sample.12,gluc-repl1,0,1,0,1,1,1,Sample,Gluc
+Sample.13,gluc-repl2,0,1,0,1,1,1,Sample,Gluc
+Sample.14,gluc-repl3,0,1,0,1,1,1,Sample,Gluc
+Sample.15,UGT-PosCont,0,1,0,0,1,1,Control,Gluc-Cont
+Sample.15a,Gluc-comp,0,1,0,1,1,1,Control,Gluc-Cont
+Sample.16,SULT-NoCof,0,1,0,1,0,1,Control,Sulf-Cont
+Sample.17,SULT-NoComp,0,1,0,0,1,1,Control,Sulf-Cont
+Sample.18,sulf-repl1,0,1,0,1,1,1,Sample,Sulf
+Sample.19,sulf-repl2,0,1,0,1,1,1,Sample,Sulf
+Sample.20,sulf-repl3,0,1,0,1,1,1,Sample,Sulf
+Sample.21a,Sulf-Comp,0,1,0,1,1,1,Control,Sulf-Cont
+Blank.1,blank 1,0,0,1,1,0,0,Control,SolvBlank
+Blank.2,blank 2,0,0,1,1,0,0,Control,SolvBlank
+Blank.3,blank 3,0,0,1,1,0,0,Control,SolvBlank
+Blank.4,blank 4,0,0,1,1,0,0,Control,SolvBlank
+Blank.5,blank 5,0,0,1,1,0,0,Control,SolvBlank
