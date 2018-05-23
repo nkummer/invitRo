@@ -1,7 +1,7 @@
 # invitRo
 
 Prioritization of LC-HRAM-MS non-target screening features acquired with a pre-defined human liver microsomes 
-in vitro metabolism assay as described by Mortel√© O., Vervliet P. et al (doi: 10.1016/j.jpba.2018.02.32).
+in vitro metabolism assay as described by Mortelé O., Vervliet P. et al (doi: 10.1016/j.jpba.2018.02.32).
 An overview of the samples in the assay can be found in the supplied CSV file (HLM_samples.csv)
 A visual representation can be found in the supplied image (HLMassay.png)
 
