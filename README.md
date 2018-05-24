@@ -19,3 +19,5 @@ extracted.
 
 The final peak list was exported to a CSV file with a structure equal to the sample file availble in the repository. 
 -> Sample-InVitroMassList R.csv
+
+The script allows the user to create a PCA of the different samples and to prioritize features using a visual representation of each sample group in a volcano plot. A subset of the features of interest can be exported to a csv file for further identification. 
