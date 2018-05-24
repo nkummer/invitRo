@@ -21,6 +21,7 @@ Sample.17,SULT-NoComp,0,1,0,0,1,1,Control,Sulf-Cont
 Sample.18,sulf-repl1,0,1,0,1,1,1,Sample,Sulf
 Sample.19,sulf-repl2,0,1,0,1,1,1,Sample,Sulf
 Sample.20,sulf-repl3,0,1,0,1,1,1,Sample,Sulf
+Sample.21,SULT-PosCont,0,1,0,0,1,1,Control,Sulf-Cont
 Sample.21a,Sulf-Comp,0,1,0,1,1,1,Control,Sulf-Cont
 Blank.1,blank 1,0,0,1,1,0,0,Control,SolvBlank
 Blank.2,blank 2,0,0,1,1,0,0,Control,SolvBlank

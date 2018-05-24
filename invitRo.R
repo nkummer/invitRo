@@ -25,7 +25,8 @@ ExpDataOrig <- read.csv("HLM_samples.csv", sep = ",", header = T, row.names = 1)
 
 
 #Make a copy of the data to work with and perform necessary transformations
-ExpData <- ExpDataOrig %>% 
+ExpData <- ExpDataOrig
+ExpData <- ExpData %>% 
   mutate(rownames = rownames(ExpDataOrig)) %>% 
   mutate(Phase.I = as.factor(ExpData$Phase.I)) %>% 
   mutate(Phase.II = as.factor(ExpData$Phase.II)) %>%
@@ -35,7 +36,8 @@ ExpData <- ExpDataOrig %>%
   mutate(HLMPres = as.factor(ExpData$HLMPres)) %>% 
   column_to_rownames(var = "rownames")
 
-Peaks <- PeaksOrig %>% 
+Peaks <- PeaksOrig
+Peaks <- Peaks %>% 
   select(3:30) %>% 
   mutate(Sample.0 = as.integer(Peaks$Sample.0)) %>% 
   mutate(Sample.1 = as.integer(Peaks$Sample.1)) %>% 
@@ -59,6 +61,7 @@ Peaks <- PeaksOrig %>%
   mutate(Sample.18 = as.integer(Peaks$Sample.18)) %>% 
   mutate(Sample.19 = as.integer(Peaks$Sample.19)) %>% 
   mutate(Sample.20 = as.integer(Peaks$Sample.20)) %>% 
+  mutate(Sample.21 = as.integer(Peaks$Sample.21)) %>% 
   mutate(Sample.21a = as.integer(Peaks$Sample.21a)) %>% 
   mutate(Blank.1 = as.integer(Peaks$Blank.1)) %>% 
   mutate(Blank.2 = as.integer(Peaks$Blank.2)) %>% 
@@ -158,7 +161,6 @@ Ph1.1h.subset <- Ph1.1h %>%
 write.csv(Ph1.1h.subset, file = "Significant-Ph1-1hbis.csv",row.names=FALSE)
   
 ##Ph1.3h
-##Ph1.3h
 Ph1.3h <- subset(PeaksOrig, select=c(4:5,10:12,1:2)) %>% 
   mutate(MeanCtrl = rowMeans(PeaksOrig[c("Sample.1", "Sample.2")])) %>% 
   mutate(MeanSmpl = rowMeans(PeaksOrig[c("Sample.7", "Sample.8", "Sample.9")])) %>% 
@@ -184,7 +186,6 @@ Ph1.3h.subset <- Ph1.3h %>%
 
 write.csv(Ph1.3h.subset, file = "Significant-Ph1-3hbis.csv",row.names=FALSE)
 
-##Ph2.Gluc
 ##Ph2.Gluc
 Ph2.Gluc <- subset(PeaksOrig, select=c(13:17,1:2)) %>% 
   mutate(MeanCtrl = rowMeans(PeaksOrig[c("Sample.10", "Sample.11")])) %>% 
